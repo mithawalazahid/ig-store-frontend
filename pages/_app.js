@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import Head from 'next/head'
 import Footer from '@/components/Footer';
-import Header from '@/Components/Header';
+
 
 
 import store from '@/store/store';
