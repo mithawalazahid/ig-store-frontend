@@ -15,7 +15,7 @@ import { useSelector } from 'react-redux';
 
 
 
-const header = () => {
+const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showCatMenu, setShowCatMenu] = useState(false);
   const [show, setShow] = useState("translate-y-0");
@@ -133,4 +133,4 @@ const header = () => {
   );
 }
 
-export default header
+export default Header
