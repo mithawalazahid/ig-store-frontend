@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react'
-import Wrapper from './Wrapper';
+import React, { useState, useEffect } from "react"
+import Wrapper from "./Wrapper";
 
-import Link from 'next/link';
-import Menu from './Menu';
-import MenuMobile from './MenuMobile';
+import Link from "next/link";
+import Menu from "./Menu";
+import MenuMobile from "./MenuMobile";
 
 import { IoMdHeartEmpty } from "react-icons/io";
 import { BsCart } from "react-icons/bs";
 import { BiMenuAltRight } from "react-icons/bi";
 import { VscChromeClose } from "react-icons/vsc";
 import { fetchDataFromApi } from '@/utils/api';
-import { useSelector } from 'react-redux';
+import { useSelector } from "react-redux";
 
 
 
 
-const header = () => {
+const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showCatMenu, setShowCatMenu] = useState(false);
   const [show, setShow] = useState("translate-y-0");
@@ -133,4 +133,4 @@ const header = () => {
   );
 }
 
-export default header
+export default Header;
