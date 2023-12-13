@@ -37,7 +37,7 @@ const ProductDetails = ({ product, products }) => {
         <div className="w-full md:py-20">
             <ToastContainer />
             <Wrapper>
-                <div className="flex flex-col lg:flex-row md:px-10 gap-[50px] lg:gap-[100px]">
+                <div className="flex flex-col lg:flex-row md:px-10 gap-[10px] lg:gap-[100px]">
                     {/*left coloumn start*/}
                     <div className="w-full md:auto flex-[1.5] max-w-[500px] lg:max-w-full
             max-auto lg:mx-0">
@@ -81,7 +81,7 @@ const ProductDetails = ({ product, products }) => {
                         <div className="text-md font-medium text-black/[0.5]">
                             incl. of taxes
                         </div>
-                        <div className="text-md font-medium text-black/[0.5] mb-20">
+                        <div className="text-md font-medium text-black/[0.5] mb-30px">
                             {`(Also includes all applicable duties)`}
                         </div>
 
