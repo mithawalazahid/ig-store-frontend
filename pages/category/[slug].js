@@ -74,6 +74,7 @@ const Category = ({ category, products, slug }) => {
                 </div>
             )}
             {/* PAGINATION BUTTONS END */}
+            
             {isLoading && (
                 <div className="absolute top-0 left-0 w-full h-full bg-black/[0.5] flex flex-col gap-5 justify-center items-center">
                     <img src="/spinner.svg" width={100} />
