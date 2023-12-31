@@ -2,6 +2,7 @@ import HeroBanner from "@/components/HeroBanner"
 import ProductCard from "@/components/ProductCard";
 import Wrapper from "@/components/Wrapper";
 import { fetchDataFromApi } from "@/utils/api";
+
 export default function Home({products}) {
   
   return (
@@ -23,6 +24,8 @@ export default function Home({products}) {
             </div>
       </div>
       {/*heading and paragraph end*/}
+
+      
 
     {/*pruducts grid start*/}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14

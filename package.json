@@ -24,8 +24,9 @@
     "react-redux": "^8.0.5",
     "react-responsive-carousel": "^3.2.23",
     "react-toastify": "^9.1.1",
+    "strapi-plugin-random-sort": "^0.0.3",
     "swr": "^2.1.0"
-},
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.30",
