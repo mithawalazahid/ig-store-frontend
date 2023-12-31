@@ -34,6 +34,7 @@ const HeroBanner = () => {
                     </div>
                 )}
             >
+                
                 <div>
                     <img src="/d1.jpg" className="aspect-[16/10] md:aspect-auto 
                     object-cover"/>
