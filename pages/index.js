@@ -2,8 +2,7 @@ import HeroBanner from "@/components/HeroBanner"
 import ProductCard from "@/components/ProductCard";
 import Wrapper from "@/components/Wrapper";
 import { fetchDataFromApi } from "@/utils/api";
-import CategorySlider from "@/components/CategorySlider";
-import CategoryCard from "@/components/CategoryCard";
+
 import Category from "./category/[slug]";
 export default function Home({products,categories}) {
   
@@ -29,8 +28,9 @@ export default function Home({products,categories}) {
 
       
       
-        <CategoryCard />
       
+        
+        
         
  
     {/*pruducts grid start*/}
